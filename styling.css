@@ -1,0 +1,224 @@
+body{
+    margin: 0;
+    padding: 0; 
+}
+
+nav ul{ 
+        list-style-type: none;
+
+        margin: 0;
+        padding: 0px;
+        overflow: hidden;  
+        background-color: white;
+}
+
+
+ul li{
+    float: right;
+}
+
+ul li a{
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        
+}  
+
+li a:hover{
+    color: purple;
+}
+
+section{
+    font-family: linear-gradient;
+    width: 100%;
+    height: 100vh;
+}
+.banner-area{
+    background-image: url(images/codioful-formerly-gradienta-rKv4HduvzIE-unsplash.jpg);
+    background-size: cover;
+    padding: 100px 100px;
+    text-align: center;
+}
+.banner h1{
+    font-size: 70;
+    color: black;
+    font-weight: normal;
+    font-style: italic;
+}
+.banner h2{
+    font-size: 60;
+    margin-top: 10px;
+    color: black;
+    font-weight: normal;
+}
+
+.banner a{
+    display:inline-block;
+    margin-top: 20;
+    padding: 10px 20px;
+    background-color: rgb(192, 164, 218);
+
+}
+
+.about{
+    height: 500px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    background-color: lightblue;
+
+
+}
+
+.about h1{
+    display: block;
+    color:black;
+    text-align: center;
+    font-size: 70;
+    margin:0;
+    padding: 10px; 
+    word-spacing: 10px; 
+}
+
+.about h1 span{
+    color:blue;
+    word-spacing: 10px;
+    display: inline-block;
+}
+
+.about p{
+    display: block;
+    color:green;
+    text-align:center;
+}
+
+.mission h2{
+    display: block;
+    color:black;
+    text-align: center;
+    font-size: 60;
+    margin: 10px;
+    padding: 10PX;
+    word-spacing: 10px;
+}
+
+.mission p{
+    display: block;
+    color: green;
+    text-align: center;
+}
+
+.vision h3{
+    display:block;
+    text-align: center;
+    font-size: 50;   
+}
+
+.features{
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows:100px 100px ;
+    gap: 150px;
+    margin:0; 
+    padding: 0;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+}
+
+.features img{
+    width:200px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    border-radius: 8px;
+    margin:0;
+}
+
+.features p{
+    font-size: 100;
+    font-style: italic;
+    color: blueviolet;
+
+}
+
+.footer{
+    display:flex;
+    margin:20px;
+    padding:0px;
+    gap:15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer img{
+    width:20px;
+    height:20px;
+    object-fit: cover;
+}
+
+.footer img:hover{
+    transform:scale(1.1)
+}
+
+.footer p{
+    font-size: 100;
+    font-style: italic;
+}
+
+.form input{
+    margin:20px;
+    padding:0px;
+    display:grid;
+    grid-column: auto;
+}
+
+.form input h1{
+    padding: 0px;
+    margin: 0px;
+    font-size: 70;
+    font-style: normal;
+}
+.reach{
+    display: block;
+    margin-top: 50;
+    padding: 0px;
+}
+
+.reach img{
+    width:20px;
+    height:20px;
+    object-fit: cover;
+}
+.reach img:hover{
+ transform: scale(1.1);   
+}
+
+.products{
+    margin:0;
+    padding: 0;
+    display:grid;
+    grid-column: auto;
+
+}
+
+.products img{
+    width:250px;
+    height: 250px;
+}
+.products h1{
+    font-size: 50px;
+    font-style: italic;
+}
+
+.products ol li p{
+    font-size:30;
+    font-style:normal;
+}
+
+.products ol li{
+    font-size: 40;
+    font-style: italic;
+}
