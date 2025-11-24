@@ -1,9 +1,11 @@
 body{
     margin: 0;
     padding: 0; 
-    background-color: rgb(230,200,199);
 }
 
+nav{
+    background-color: rgb(230,200,199);
+}
 nav ul{ 
         list-style-type: none;
         margin: 0;
@@ -32,9 +34,11 @@ li a:hover{
 .banner-area{
     background-image: url(images/bakery\ shop.jpg);
     background-size: cover;
-    padding: 100px 100px;
-    height:300px;
-    width:1200px;
+    height:30rem;
+    width:80rem;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 10px;
 }
 
 .welcome{
@@ -44,8 +48,9 @@ li a:hover{
     justify-content: center;
     text-align: center; 
 }
-.welcome a:hover{
-    color: green;
+.welcome button{
+    color:black;
+    background-color: purple;
 }
 
 .about{
@@ -91,7 +96,7 @@ li a:hover{
 .features{
     display: grid;
     grid-template-columns:100px 100px 100px 100px 100px ;
-    gap: 10%;
+    gap: 10rem;
     margin:10px; 
     padding: 0;
 }
@@ -100,6 +105,9 @@ li a:hover{
     width:250px;
     height: 250px;
     margin: 20px;
+    border-radius: 25px;
+     
+    
 }
 
 
@@ -156,7 +164,7 @@ li a:hover{
 .products{
      display: grid;
     grid-template-columns:100px 100px 100px 100px 100px ;
-    gap: 10%;
+    gap: 10rem;
     margin:10px; 
     padding: 0;
 }
@@ -165,16 +173,18 @@ li a:hover{
 width:250px;
     height: 250px;
     margin: 20px;
+    border-radius: 25px;
 }
 
 
 .services{
     display: grid;
     grid-template-columns: 100px 100px 100px ;
-    gap:50px;
+    gap:10rem;
     justify-content: center;
     font-size: 15px;
     font-style: italic;
+    margin-top: 3rem;
 }
 .services img{
     height:30px;
@@ -184,14 +194,17 @@ width:250px;
 .focus{
     display: grid;
     grid-template-columns: 100px 100px 100px ;
-    gap:50px;
+    gap:10rem;
     justify-content: center;
     font-size: 15px;
     font-style: italic;
-
+    margin-top: 3rem;
 }
 .focus img{
     height:30px;
     width:30px;
 }
+
+
+
 
